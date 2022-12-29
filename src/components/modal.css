@@ -1,0 +1,84 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(47, 47, 47) !important;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+
+ul {
+  padding: 0;
+  border: none;
+}
+
+.modalContainer {
+  width: 50%;
+  height: fit-content;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.title h4 {
+  color: blue;
+}
+
+.buttons {
+  display: inline-flex;
+  justify-content: end;
+}
+
+.buttons button {
+  margin-right: 10px;
+  height: 40px;
+  width: 70px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  background-color: #2072ef;
+  color: white;
+  cursor: pointer;
+}
+
+.cancelBtn {
+  background-color: white !important;
+  color: gray !important;
+}
+
+p {
+  color: gray;
+}
+
+li {
+  border-bottom: 1px solid lightgray;
+  list-style: none;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li div {
+  display: flex;
+  align-items: center;
+}
+
+.color {
+  /* background-color:#0053D1; */
+  width: 60px;
+  height: 25px;
+  margin-left: 5px;
+  border-radius: 3px;
+  border: 1px solid lightgray;
+}
