@@ -82,3 +82,40 @@ li div {
   border-radius: 3px;
   border: 1px solid lightgray;
 }
+
+@media only screen and (max-width: 600px) {
+
+  li {
+
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .modalContainer {
+    width: 50%;
+    height: 50%;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+  }
+
+  .buttons {
+    justify-content: center;
+    
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  
+  
+}
